@@ -1,0 +1,15 @@
+repeat wait() until game:IsLoaded()
+local GameId = game.PlaceId
+if GameId == 8260276694 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuSieuRom/Bach-Hub/main/AbilityWar"))()
+elseif GameId == 5777099015 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuSieuRom/Bach-Hub/main/CheeseEscape.lua"))()
+elseif GameId == 5490351219 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuSieuRom/Bach-Hub/main/ClickerMadness.lua"))()
+elseif GameId == 9872472334 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuSieuRom/Bach-Hub/main/Evade.lua"))()
+elseif GameId == 3956818381 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuSieuRom/Bach-Hub/main/NinjaLegends.lua"))()
+elseif GameId == 155615604 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuSieuRom/Bach-Hub/main/PrisonLife.lua"))()
+end
